@@ -1,0 +1,135 @@
+.navigation{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    padding:20px 70px;
+    align-items: center;
+}
+body{
+    margin: 0;
+}
+.navigation button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin:0 10px ;
+    font-size: medium;
+    font-weight: 700;
+    display: inline;
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+
+}
+.sign-in{
+    display: flex;
+    width: 200px;
+    align-items: center;
+}
+.sign-in img{
+    height: 40px;
+    margin-left: 20px;
+}
+.sign-in-container{
+    display: flex;
+}
+.navigation input[type="text"]{
+    background-color: #3a3c3e;
+    border: none;
+    padding: 10px;
+    width: 150px;
+    display: flex;
+   
+}
+.advertaisment-container img{
+    width: 70%;
+}
+.advertaisment-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #eeeeee;
+    padding: 0 70px;
+}
+.news-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+    color: rgb(117, 123, 123);
+}
+.news-body{
+display: flex;
+padding: 0 5%;
+height: 300px;
+}
+.atsu{
+background-image: url("atsu.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+width: 50%;
+margin: 3px;
+display: flex;
+align-items: flex-end;
+}
+.killer{
+    background-image: url("killer.jpg");
+    background-size: cover;
+    margin: 3px;
+    background-repeat: no-repeat;
+}
+.tate{
+     background-image: url("topG.jpg");
+     background-size: cover;
+     margin: 3px;
+     background-repeat: no-repeat;
+}
+.killer2{
+background-image: url("staidium.jpg");
+background-size: cover;
+margin: 3px;
+background-repeat: no-repeat;
+}
+.tate2{
+background-image: url("england.jpg");
+background-size: cover;
+margin: 3px;
+background-repeat: no-repeat;
+}
+.right{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.right div{
+    width: 47%;
+    height: 47%;
+    display: flex;
+    align-items: flex-end;
+}
+.news-container{
+    height: 100%;
+}
+.news-body a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 3px;
+}
+.atsu a{
+    font-size: 40px;
+    text-shadow: 1px 1px 2px black;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.burger{
+    display: none;
+}
+.news-header h6{
+    display: none;
+}
+   .allImage{
+   
+    width: 50px;
+   }
